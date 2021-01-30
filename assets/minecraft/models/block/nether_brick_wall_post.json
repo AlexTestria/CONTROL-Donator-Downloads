@@ -1,0 +1,36 @@
+{
+	"credit": "Made by AlexTestria - BD https://www.byron-dynamics.de",
+	"textures": {
+		"2": "block/nether_bricks",
+		"particle": "block/nether_bricks"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 4],
+			"to": [12, 16, 12],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 16], "texture": "#2"},
+				"east": {"uv": [4, 0, 12, 16], "texture": "#2"},
+				"south": {"uv": [4, 0, 12, 16], "texture": "#2"},
+				"west": {"uv": [4, 0, 12, 16], "texture": "#2"},
+				"up": {"uv": [4, 4, 12, 12], "texture": "#2"},
+				"down": {"uv": [12, 12, 4, 4], "texture": "#2"}
+			}
+		}
+	],
+	"display": {
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"translation": [0, 2.46, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 45, 0],
+			"translation": [0, 2.46, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"gui": {
+			"rotation": [90, 0, 0]
+		}
+	}
+}

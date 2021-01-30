@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/random/black01" },
+			{ "model": "block/random/black01", "y": 90 },
+			{ "model": "block/random/black01", "y": 180 },
+			{ "model": "block/random/black01", "y": 270 },
+			{ "model": "block/random/black01", "x": 90 },
+			{ "model": "block/random/black01", "x": 180 },
+			{ "model": "block/random/black01", "x": 270 }
+        ]
+    }
+}

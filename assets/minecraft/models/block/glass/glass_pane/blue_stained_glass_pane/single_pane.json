@@ -1,0 +1,29 @@
+{
+	"credit": "Made by AlexTestria - BD https://www.byron-dynamics.de",
+	"parent": "block/template_glass_pane_post",
+	"textures": {
+		"1": "control/material/glass/shader_support/glass02",
+		"particle": "control/material/metals/shader_support/metal02"
+	},
+	"elements": [
+		{
+			"from": [7.5, 0, 7.5],
+			"to": [8.5, 16, 8.5],
+			"faces": {
+				"north": {"uv": [0.5, 0, 1.5, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 1, 16], "texture": "#1"},
+				"south": {"uv": [0.5, 0, 1.5, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 1, 16], "texture": "#1"},
+				"up": {"uv": [0.5, 0.5, 1.5, 1.5], "texture": "#1", "cullface": "up"},
+				"down": {"uv": [0.5, 0.5, 1.5, 1.5], "texture": "#1", "cullface": "down"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "two_side",
+			"origin": [8, 8, 8],
+			"children": [0]
+		}
+	]
+}

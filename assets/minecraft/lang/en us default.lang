@@ -1,0 +1,186 @@
+
+language.name=English
+language.region=United States
+language.code=en_us
+
+######################## PAINT EDIT ########################
+
+tile.bed.noSleep=You don't feel like sleeping
+container.crafting=§bPAINT by Noah
+
+#Music Interface
+options.sounds=§bPAINT Music Settings
+options.sounds.title=§bCheck your Settings before playing! :)
+soundCategory.master=§bSet this to 100
+soundCategory.music=§4OFF
+soundCategory.record=§bPAINT Music
+soundCategory.weather=§7
+soundCategory.hostile=§7
+soundCategory.neutral=§7
+soundCategory.player=§bPlayers (MP)
+soundCategory.block=§7
+soundCategory.ambient=§7
+soundCategory.voice=§bVoices
+
+
+
+effect.none=
+effect.moveSpeed=
+effect.moveSlowdown=
+effect.digSpeed=
+effect.digSlowDown=
+effect.damageBoost=
+effect.heal=
+effect.harm=
+effect.jump=
+effect.confusion=
+effect.regeneration=
+effect.resistance=
+effect.fireResistance=
+effect.waterBreathing=
+effect.invisibility=
+effect.blindness=
+effect.nightVision=
+effect.hunger=
+effect.weakness=
+effect.poison=
+effect.wither=
+effect.healthBoost=
+effect.absorption=
+effect.saturation=
+effect.glowing=
+effect.luck=
+effect.unluck=
+effect.levitation=
+item.painting.name=Beautiful Landscape
+
+#TUBES
+tile.musicBlock.name=§aTUBE Valve
+tile.stainedGlass.blue.name=§aTUBE X
+tile.stainedGlass.brown.name=§aTUBE Y
+tile.stainedGlass.cyan.name=§aTUBE Z
+tile.stoneSlab.smoothStoneBrick.name=§aTUBE X Support
+tile.stoneSlab.quartz.name=§aTUBE Z Support
+tile.stoneSlab2.red_sandstone.name=§aTUBE X
+tile.purpurSlab.name=§aTUBE Z
+
+#Paintable Stone
+tile.stone.stone.name=Paintable Stone
+tile.stone.granite.name=§4Painted Stone
+tile.stone.graniteSmooth.name=§6Painted Stone
+tile.stone.diorite.name=§2Painted Stone
+tile.stone.dioriteSmooth.name=§3Painted Stone
+tile.purpurBlock.name=§8Unpaintable Stone
+
+#Solid Paint Blocks
+tile.melon.name=§7Solid Paint
+tile.concrete.white.name=§4Solid Paint
+tile.concrete.orange.name=§6Solid Paint
+tile.concrete.magenta.name=§2Solid Paint
+tile.concrete.lightBlue.name=§3Solid Paint
+
+#PAINTER
+tile.concrete.silver.name=§3Painter
+tile.concrete.gray.name=§2Painter
+tile.concrete.pink.name=§6Painter
+tile.concrete.lime.name=§4Painter
+tile.concrete.yellow.name=§7Painter
+
+#INFUSER
+tile.quartzBlock.lines.name=§7Infuser
+tile.log.oak.name=§2Infuser
+tile.log.spruce.name=§3Infuser
+tile.log.birch.name=§6Infuser
+tile.log.jungle.name=§4Infuser
+
+#LINES
+tile.glazedTerracottaWhite.name=§8LINES
+tile.glazedTerracottaOrange.name=§8LINES
+tile.glazedTerracottaMagenta.name=§8LINES
+tile.glazedTerracottaLightBlue.name=§8LINES
+tile.glazedTerracottaYellow.name=§8LINES
+tile.glazedTerracottaLime.name=§8LINES
+tile.glazedTerracottaPink.name=§8LINES
+tile.glazedTerracottaGray.name=§8LINES
+tile.glazedTerracottaSilver.name=§8LINES
+item.redstone.name=§8LINES Dust
+
+tile.quartzBlock.name=§8LINES
+tile.log.big_oak.name=§8LINES
+tile.oreGold.name=§8LINES
+tile.oreIron.name=§8LINES
+tile.oreCoal.name=§8LINES
+
+#Basic Stone
+tile.stoneSlab.cobble.name=§7BASIC Slab
+tile.stairsStone.name=§7BASIC Stairs
+tile.cobbleWall.normal.name=§7BASIC Wall
+tile.stonebrick.name=§7BASIC Stone
+tile.stoneSlab.stone.name=§7BASIC Decoration Slab
+tile.stoneSlab.sand.name=§7BASIC Decoration Slab
+tile.birchFence.name=§7BASIC Beam
+tile.jungleFence.name=§7BASIC Beam Sideways
+tile.darkOakFence.name=§7BASIC Fence
+tile.acaciaFence.name=§7BASIC Fence
+tile.endRod.name=§7BASIC Beam Glowing 
+tile.spruceFence.name=§7BASIC Beam Not Glowing
+tile.stairsWoodBirch.name=§7BASIC Stairs
+tile.stairsWoodDarkOak.name=§7BASIC Stairs
+tile.stairsRedSandStone.name=§7BASIC Stairs
+tile.stainedGlass.black.name=§7BASIC Glass
+tile.stainedGlass.red.name=§7BASIC Glass
+tile.stainedGlass.white.name=§7BASIC Glass
+tile.thinStainedGlass.yellow.name=§7BASIC Glass
+tile.woodSlab.oak.name=§7BASIC Chair/Table
+tile.stoneSlab.brick.name=§7BASIC Slab
+tile.seaLantern.name=§7BASIC Light
+tile.boneBlock.name=§7BASIC Pillar
+item.string.name=§7BASIC Fizzler
+item.cake.name=A Lie
+tile.stainedGlass.green.name=§7BASIC Black (Glass)
+tile.cloth.black.name=§7BASIC Black (Solid)
+
+tile.stonebricksmooth.name=§eBASIC Black Fancy Block
+tile.stonebricksmooth.default.name=§eBASIC Black Fancy Block
+tile.stonebricksmooth.mossy.name=§eBASIC Blue Fancy Block
+tile.stonebricksmooth.cracked.name=§eBASIC Brown Fancy Block
+tile.stonebricksmooth.chiseled.name=§eBASIC Green Fancy Block
+tile.stairsStoneBrickSmooth.name=§eBASIC Black Fancy Stairs
+
+tile.netherBrick.name=§5BASIC Fancy Block
+tile.netherFence.name=§5BASIC Fancy Fence
+tile.stairsNetherBrick.name=§5BASIC Fancy Stairs
+tile.redNetherBrick.name=§5BASIC Fancy Unpaintable Block
+tile.stoneSlab.netherBrick.name=§5BASIC Fancy Slab
+
+tile.monsterStoneEgg.name=-
+tile.monsterStoneEgg.stone.name=-
+tile.monsterStoneEgg.cobble.name=-
+tile.monsterStoneEgg.brick.name=-
+tile.monsterStoneEgg.mossybrick.name=-
+tile.monsterStoneEgg.crackedbrick.name=-
+tile.monsterStoneEgg.chiseledbrick.name=-
+
+
+item.dyePowder.black.name=§aLOGIC Hexagon
+item.dyePowder.red.name=§aLOGIC Hexagon
+item.dyePowder.green.name=§aLOGIC Hexagon
+item.dyePowder.brown.name=§aLOGIC Hexagon
+item.dyePowder.blue.name=§aLOGIC Hexagon
+item.dyePowder.purple.name=§aLOGIC Hexagon
+item.dyePowder.cyan.name=§aLOGIC Hexagon
+item.dyePowder.silver.name=L§aLOGIC Hexagon
+
+tile.woolCarpet.blue.name=§7BASIC Spikes
+tile.woolCarpet.pink.name=§7BASIC Blue Paint Bucket
+tile.woolCarpet.lime.name=§7BASIC Green Paint Bucket
+tile.woolCarpet.yellow.name=§7BASIC Orange Paint Bucket
+tile.woolCarpet.lightBlue.name=§7BASIC Red Paint Bucket
+tile.woolCarpet.gray.name=§7BASIC Purple Taint Bucket
+tile.woolCarpet.magenta.name=§7BASIC Empty Paint Gun Stand
+tile.woolCarpet.orange.name=§7BASIC Paint Gun Stand
+tile.woolCarpet.cyan.name=§7BASIC SyncPoint
+tile.woolCarpet.green.name=§7BASIC Spikes (Descended)
+tile.woolCarpet.purple.name=§BASIC Pylone
+tile.woolCarpet.silver.name=§BASIC Empty Paint Bucket
+tile.woolCarpet.brown.name=§BASIC Broken Glass

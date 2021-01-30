@@ -1,0 +1,39 @@
+{
+"__comment": "designed by halbzwilling with bdcraft cubik pro 0.95 beta - http://bdcraft.net",
+"textures": {
+    "particle": "paint/ground/white01",
+    "texture": "paint/ground/white01",
+    "item (1)": "paint/ground/white01"
+},
+"elements": [
+{
+    "from": [ 4, 4, 0 ],
+    "to": [ 12, 12, 16 ],
+    "faces": {
+        "down":  { "uv": [ 4, 0, 12, 16 ], "texture": "#texture" },
+        "up":    { "uv": [ 4, 0, 12, 16 ], "rotation": 180, "texture": "#texture" },
+        "north": { "uv": [ 12, 12, 4, 4 ], "rotation": 180, "texture": "#texture" },
+        "south": { "uv": [ 4, 4, 12, 12 ], "texture": "#texture" },
+        "west":  { "uv": [ 4, 0, 12, 16 ], "rotation": 90, "texture": "#texture" },
+        "east":  { "uv": [ 4, 0, 12, 16 ], "rotation": 270, "texture": "#texture" }
+    }
+}
+],
+"display": {
+    "firstperson_righthand": {
+        "rotation": [ 0, 45, 0 ],
+        "translation": [ 0, 2.46, 0 ],
+        "scale": [ 0.4, 0.4, 0.4 ]
+    },
+    "firstperson_lefthand": {
+        "rotation": [ 0, 45, 0 ],
+        "translation": [ 0, 2.46, 0 ],
+        "scale": [ 0.4, 0.4, 0.4 ]
+    },
+    "gui": {
+        "rotation": [ 90, 0, 0 ],
+        "translation": [ 0, 0, 0 ],
+        "scale": [ 1, 1, 1 ]
+    }
+}
+}

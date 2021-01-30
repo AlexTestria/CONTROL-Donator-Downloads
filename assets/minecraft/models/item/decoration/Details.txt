@@ -1,0 +1,5 @@
+This folder holds all decoration / single objects inside.
+These models are bound to the Custom Model Data of the Armor_Stand
+
+Reserved Tags: a02-a200
+Reserved CustomModelData: 2-200

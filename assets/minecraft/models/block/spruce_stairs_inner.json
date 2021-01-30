@@ -1,0 +1,65 @@
+{
+	"credit": "AlexTestria | https://byron-dynamics.de",
+	"textures": {
+		"particle": "control/material/concrete/shader_support/concrete01",
+		"texture": "control/material/concrete/shader_support/concrete01"
+	},
+	"elements": [
+		{
+			"from": [8, 0, 0],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [23, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 16, 8, 0], "texture": "#texture"},
+				"east": {"uv": [0, 16, 16, 0], "texture": "#texture", "cullface": "east"},
+				"south": {"uv": [0, 16, 8, 0], "texture": "#texture", "cullface": "south"},
+				"west": {"uv": [0, 16, 16, 0], "texture": "#texture"},
+				"up": {"uv": [0, 16, 8, 0], "texture": "#texture", "cullface": "up"},
+				"down": {"uv": [0, 16, 8, 0], "texture": "#texture", "cullface": "down"}
+			}
+		},
+		{
+			"from": [0, 0, 8],
+			"to": [8, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 23]},
+			"faces": {
+				"north": {"uv": [0, 16, 8, 0], "texture": "#texture"},
+				"south": {"uv": [0, 16, 8, 0], "texture": "#texture", "cullface": "south"},
+				"west": {"uv": [0, 16, 8, 0], "texture": "#texture", "cullface": "west"},
+				"up": {"uv": [0, 8, 8, 0], "texture": "#texture", "cullface": "up"},
+				"down": {"uv": [0, 8, 8, 0], "texture": "#texture", "cullface": "down"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 225, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, 45, 0],
+			"scale": [0.62, 0.62, 0.62]
+		},
+		"fixed": {
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}

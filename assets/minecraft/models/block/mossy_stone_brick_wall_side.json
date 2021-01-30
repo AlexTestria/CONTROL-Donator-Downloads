@@ -1,0 +1,37 @@
+{
+	"credit": "Made by AlexTestria - BD https://www.byron-dynamics.de",
+	"textures": {
+		"1": "paint/ground/gray11frame",
+		"particle": "paint/ground/gray11frame"
+	},
+	"elements": [
+		{
+			"from": [4.5, 4, 0],
+			"to": [11.5, 12, 8],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 8, 4]},
+			"faces": {
+				"north": {"uv": [4.438, 4.188, 11.438, 12.188], "texture": "#1"},
+				"east": {"uv": [5.438, 3.25, 13.374, 11.25], "texture": "#1"},
+				"south": {"uv": [5.375, 4.563, 12.375, 12.563], "texture": "#1"},
+				"west": {"uv": [2.563, 4.438, 10.563, 12.438], "texture": "#1"},
+				"up": {"uv": [4.25, 3, 11.25, 11], "texture": "#1"},
+				"down": {"uv": [3, 3.438, 10, 11.374], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"translation": [0, 2.46, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 45, 0],
+			"translation": [0, 2.46, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"gui": {
+			"rotation": [90, 0, 0]
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"credit": "AlexTestria | https://byron-dynamics.de",
+	"parent": "block/cube_all",
+	"textures": {
+		"0": "control/material/concrete/shader_support/concrete01",
+		"particle": "control/material/concrete/shader_support/concrete01"
+	},
+	"elements": [
+		{
+			"from": [-3.17359, 12.66449, 0.06],
+			"to": [19.45383, 23.96449, 15.98],
+			"rotation": {"angle": -45, "axis": "z", "origin": [2.43952, 10.50139, 12]},
+			"faces": {
+				"north": {"uv": [0, 11.33185, 16, 0], "texture": "#0"},
+				"east": {"uv": [0, 11.33185, 7.996, 0], "texture": "#0"},
+				"south": {"uv": [0, 11.33185, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 11.33185, 7.996, 0], "texture": "#0"},
+				"up": {"uv": [0, 7.996, 16, 0], "texture": "#0"},
+				"down": {"uv": [0, 7.996, 16, 0], "texture": "#0"}
+			}
+		}
+	]
+}

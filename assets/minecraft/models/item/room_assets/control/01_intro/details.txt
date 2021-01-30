@@ -1,0 +1,6 @@
+All room specific assets for the INTRO rooms.
+
+First Room | until | Elevator
+
+Reservated Tags: a1001 - a1020
+Reservated CustomModelData: 1000 - 1020

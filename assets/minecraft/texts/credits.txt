@@ -1,0 +1,34 @@
+﻿
+[C]§f===============
+[C]§4CONTROL in MINECRAFT
+[C]§f===============
+
+§cCONTROL is a game made by Remedy Entertainment.
+§cThis is a heavily inspired Map thats designed to recreate the game CONTROL by Remedy Entertainment.
+
+§c I hope you had fun, thanks for playing!
+
+
+[C]§f===============
+[C]§4Credits
+[C]§f===============
+
+§7The Dude Who Made This Map:
+§fAlexTestria
+
+§73D Modellers:
+§fAlexTestria
+§fov3rwrite
+§fMikeShotZ
+
+§7Music and Sound-Effects:
+§fNolram12345
+§fAlexTestria
+
+
+§7PATREONS:
+§cNITRO
+§cMiniSparki
+§cB-Core
+
+§7Thanks a lot to you guys. You made my developing life much easier!

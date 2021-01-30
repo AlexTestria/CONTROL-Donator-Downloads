@@ -1,0 +1,67 @@
+{
+	"credit": "AlexTestria | https://byron-dynamics.de",
+	"parent": "block/template_glass_pane_post",
+	"textures": {
+		"1": "control/material/glass/shader_support/glass02",
+		"particle": "control/material/metals/shader_support/metal02"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 7.5],
+			"to": [16, 16, 8.5],
+			"faces": {
+				"north": {"uv": [0.5, 0, 15.5, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 1, 16], "texture": "#1"},
+				"south": {"uv": [0.5, 0, 15.5, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 1, 16], "texture": "#1"},
+				"up": {"uv": [0.5, 0.5, 15.5, 1.5], "texture": "#1", "cullface": "up"},
+				"down": {"uv": [0.5, 0.5, 15.5, 1.5], "texture": "#1", "cullface": "down"}
+			}
+		},
+		{
+			"from": [7.5, 0, 0],
+			"to": [8.5, 16, 7.5],
+			"faces": {
+				"north": {"uv": [0, 0, 1, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 7, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 7, 16], "texture": "#1"},
+				"up": {"uv": [3, 0.5, 10, 1.5], "rotation": 90, "texture": "#1", "cullface": "up"},
+				"down": {"uv": [2, 0.5, 9, 1.5], "rotation": 270, "texture": "#1", "cullface": "down"}
+			}
+		},
+		{
+			"from": [7.5, 0, 8.5],
+			"to": [8.5, 16, 16],
+			"faces": {
+				"east": {"uv": [7, 0, 0, 16], "texture": "#1"},
+				"south": {"uv": [1, 0, 0, 16], "texture": "#1"},
+				"west": {"uv": [7, 0, 0, 16], "texture": "#1"},
+				"up": {"uv": [10, 0.5, 3, 1.5], "rotation": 90, "texture": "#1", "cullface": "up"},
+				"down": {"uv": [9, 0.5, 2, 1.5], "rotation": 270, "texture": "#1", "cullface": "down"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "two_side",
+			"origin": [8, 8, 8],
+			"children": [0, 1, 2]
+		},
+		{
+			"name": "group",
+			"origin": [8, 8, 8],
+			"children": [
+				{
+					"name": "group",
+					"origin": [7.25, 15.75, 7.5],
+					"children": []
+				},
+				{
+					"name": "group",
+					"origin": [7.25, 15.75, 7.5],
+					"children": []
+				}
+			]
+		}
+	]
+}

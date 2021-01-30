@@ -1,0 +1,37 @@
+{
+    "variants": {
+        "north=none,south=none,east=none,west=none": { "model": "block/block/cobblestone_wall/single_wall" },
+        "north=low,south=none,east=none,west=none": { "model": "block/block/cobblestone_wall/full_wall" },
+        "north=none,south=low,east=none,west=none": { "model": "block/block/cobblestone_wall/full_wall", "y": 180 },
+        "north=none,south=none,east=low,west=none": { "model": "block/block/cobblestone_wall/full_wall", "y": 90 },
+        "north=none,south=none,east=none,west=low": { "model": "block/block/cobblestone_wall/full_wall", "y": 270 },
+        "north=low,south=low,east=none,west=none": { "model": "block/block/cobblestone_wall/full_wall" },
+        "north=none,south=none,east=low,west=low": { "model": "block/block/cobblestone_wall/full_wall", "y": 90 },
+        "north=low,south=none,east=low,west=none": { "model": "block/block/cobblestone_wall/corner_wall" },
+        "north=low,south=none,east=none,west=low": { "model": "block/block/cobblestone_wall/corner_wall", "y": 270 },
+        "north=none,south=low,east=none,west=low": { "model": "block/block/cobblestone_wall/corner_wall", "y": 180 },
+        "north=none,south=low,east=low,west=none": { "model": "block/block/cobblestone_wall/corner_wall", "y": 90 },
+        "north=low,south=none,east=low,west=low": { "model": "block/block/cobblestone_wall/triple_wall" },
+        "north=low,south=low,east=none,west=low": { "model": "block/block/cobblestone_wall/triple_wall", "y": 270 },
+        "north=none,south=low,east=low,west=low": { "model": "block/block/cobblestone_wall/triple_wall", "y": 180 },
+        "north=low,south=low,east=low,west=none": { "model": "block/block/cobblestone_wall/triple_wall", "y": 90 },
+        "north=low,south=low,east=low,west=low": { "model": "block/block/cobblestone_wall/quadruple_wall" },
+
+        "north=none,south=none,east=none,west=none": { "model": "block/block/cobblestone_wall/single_wall" },
+        "north=tall,south=none,east=none,west=none": { "model": "block/block/cobblestone_wall/full_wall" },
+        "north=none,south=tall,east=none,west=none": { "model": "block/block/cobblestone_wall/full_wall", "y": 180 },
+        "north=none,south=none,east=tall,west=none": { "model": "block/block/cobblestone_wall/full_wall", "y": 90 },
+        "north=none,south=none,east=none,west=tall": { "model": "block/block/cobblestone_wall/full_wall", "y": 270 },
+        "north=tall,south=tall,east=none,west=none": { "model": "block/block/cobblestone_wall/full_wall" },
+        "north=none,south=none,east=tall,west=tall": { "model": "block/block/cobblestone_wall/full_wall", "y": 90 },
+        "north=tall,south=none,east=tall,west=none": { "model": "block/block/cobblestone_wall/corner_wall" },
+        "north=tall,south=none,east=none,west=tall": { "model": "block/block/cobblestone_wall/corner_wall", "y": 270 },
+        "north=none,south=tall,east=none,west=tall": { "model": "block/block/cobblestone_wall/corner_wall", "y": 180 },
+        "north=none,south=tall,east=tall,west=none": { "model": "block/block/cobblestone_wall/corner_wall", "y": 90 },
+        "north=tall,south=none,east=tall,west=tall": { "model": "block/block/cobblestone_wall/triple_wall" },
+        "north=tall,south=tall,east=none,west=tall": { "model": "block/block/cobblestone_wall/triple_wall", "y": 270 },
+        "north=none,south=tall,east=tall,west=tall": { "model": "block/block/cobblestone_wall/triple_wall", "y": 180 },
+        "north=tall,south=tall,east=tall,west=none": { "model": "block/block/cobblestone_wall/triple_wall", "y": 90 },
+        "north=tall,south=tall,east=tall,west=tall": { "model": "block/block/cobblestone_wall/quadruple_wall" }
+    }
+}
