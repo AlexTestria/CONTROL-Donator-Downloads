@@ -1,8 +1,8 @@
 {
 	"credit": "AlexTestria | https://byron-dynamics.de",
 	"textures": {
-		"0": "control/material/wood/shader_support/fine_wood01",
-		"particle": "control/material/wood/shader_support/fine_wood01"
+		"0": "control/material/plastics/shader_support/plastic02",
+		"particle": "control/material/plastics/shader_support/plastic02"
 	},
 	"elements": [
 		{

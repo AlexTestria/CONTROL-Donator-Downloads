@@ -2,10 +2,10 @@
 	"credit": "AlexTestria | https://byron-dynamics.de",
 	"parent": "block/cube_all",
 	"textures": {
-		"1": "control/ground/black11",
+		"1": "control/material/plastics/shader_support/plastic02",
 		"2": "control/material/metals/shader_support/metal02",
-		"particle": "control/material/lights/texture/glowstone",
-		"all": "control/material/lights/texture/glowstone"
+		"particle": "control/material/lights/texture/light01",
+		"all": "control/material/lights/texture/light01"
 	},
 	"elements": [
 		{
@@ -27,7 +27,7 @@
 			"faces": {
 				"north": {"uv": [0, 0.25, 0.15, 0], "texture": "#2", "cullface": "up"},
 				"south": {"uv": [0, 0.25, 0.15, 0], "texture": "#2", "cullface": "up"},
-				"west": {"uv": [0, 0.25, 16, 0], "texture": "#2", "cullface": "up"},
+				"west": {"uv": [0, 0.25, 16, 0], "texture": "#2", "cullface": "west"},
 				"up": {"uv": [0, 16, 0.15, 0], "texture": "#2", "cullface": "up"}
 			}
 		},
@@ -38,7 +38,7 @@
 			"faces": {
 				"north": {"uv": [0, 0, 0.15, 0.25], "texture": "#2", "cullface": "down"},
 				"south": {"uv": [0, 0, 0.15, 0.25], "texture": "#2", "cullface": "down"},
-				"west": {"uv": [0, 0, 16, 0.25], "texture": "#2", "cullface": "down"},
+				"west": {"uv": [0, 0, 16, 0.25], "texture": "#2", "cullface": "west"},
 				"down": {"uv": [0, 0, 0.15, 16], "texture": "#2", "cullface": "down"}
 			}
 		},
@@ -48,7 +48,7 @@
 			"rotation": {"angle": 0, "axis": "y", "origin": [23.5, 8.25, 8]},
 			"faces": {
 				"north": {"uv": [0, 0.25, 0.15, 0], "texture": "#2", "cullface": "up"},
-				"east": {"uv": [0, 0.25, 16, 0], "texture": "#2", "cullface": "up"},
+				"east": {"uv": [0, 0.25, 16, 0], "texture": "#2", "cullface": "east"},
 				"south": {"uv": [0, 0.25, 0.15, 0], "texture": "#2", "cullface": "up"},
 				"up": {"uv": [0, 16, 0.15, 0], "texture": "#2", "cullface": "up"}
 			}
@@ -59,7 +59,7 @@
 			"rotation": {"angle": 0, "axis": "y", "origin": [23.5, 7.75, 8]},
 			"faces": {
 				"north": {"uv": [0, 0, 0.15, 0.25], "texture": "#2", "cullface": "down"},
-				"east": {"uv": [0, 0, 16, 0.25], "texture": "#2", "cullface": "down"},
+				"east": {"uv": [0, 0, 16, 0.25], "texture": "#2", "cullface": "east"},
 				"south": {"uv": [0, 0, 0.15, 0.25], "texture": "#2", "cullface": "down"},
 				"down": {"uv": [0, 0, 0.15, 16], "texture": "#2", "cullface": "down"}
 			}
@@ -117,7 +117,7 @@
 			"to": [15.85, 16.25, 0.15],
 			"rotation": {"angle": 0, "axis": "y", "origin": [23, 8.25, 8]},
 			"faces": {
-				"north": {"uv": [0, 0.25, 15.7, 0], "texture": "#2", "cullface": "up"},
+				"north": {"uv": [0, 0.25, 15.7, 0], "texture": "#2", "cullface": "north"},
 				"up": {"uv": [0, 0.15, 15.7, 0], "texture": "#2", "cullface": "up"}
 			}
 		},
@@ -126,7 +126,7 @@
 			"to": [15.85, 0, 0.15],
 			"rotation": {"angle": 0, "axis": "y", "origin": [23, 7.75, 8]},
 			"faces": {
-				"north": {"uv": [0, 0, 15.7, 0.25], "texture": "#2", "cullface": "down"},
+				"north": {"uv": [0, 0, 15.7, 0.25], "texture": "#2", "cullface": "north"},
 				"down": {"uv": [0, 0, 15.7, 0.15], "texture": "#2", "cullface": "down"}
 			}
 		},
@@ -135,7 +135,7 @@
 			"to": [15.85, 16.25, 16],
 			"rotation": {"angle": 0, "axis": "y", "origin": [23, 8.25, 23.5]},
 			"faces": {
-				"south": {"uv": [0, 0.25, 15.7, 0], "texture": "#2", "cullface": "up"},
+				"south": {"uv": [0, 0.25, 15.7, 0], "texture": "#2", "cullface": "south"},
 				"up": {"uv": [0, 0.15, 15.7, 0], "texture": "#2", "cullface": "up"}
 			}
 		},
@@ -144,7 +144,7 @@
 			"to": [15.85, 0, 16],
 			"rotation": {"angle": 0, "axis": "y", "origin": [23, 7.75, 23.5]},
 			"faces": {
-				"south": {"uv": [0, 0, 15.7, 0.25], "texture": "#2", "cullface": "down"},
+				"south": {"uv": [0, 0, 15.7, 0.25], "texture": "#2", "cullface": "south"},
 				"down": {"uv": [0, 0, 15.7, 0.15], "texture": "#2", "cullface": "down"}
 			}
 		},

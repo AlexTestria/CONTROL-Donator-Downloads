@@ -2,8 +2,8 @@
 	"credit": "AlexTestria | https://byron-dynamics.de",
 	"parent": "block/cube_all",
 	"textures": {
-		"particle": "control/material/lights/texture/glowstone",
-		"all": "control/material/lights/texture/glowstone"
+		"particle": "control/material/lights/texture/light03",
+		"all": "control/material/lights/texture/light03"
 	},
 	"elements": [
 		{

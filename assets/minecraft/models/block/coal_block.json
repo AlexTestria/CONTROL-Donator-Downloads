@@ -1,11 +1,11 @@
 {
-	"credit": "Made by AlexTestria - BD https://www.byron-dynamics.de",
+	"credit": "AlexTestria | https://byron-dynamics.de",
 	"parent": "block/cube_all",
 	"textures": {
-		"1": "control/ground/black11",
+		"1": "control/material/plastics/shader_support/plastic02",
 		"2": "control/material/metals/shader_support/metal01",
-		"particle": "control/material/lights/texture/coal_block",
-		"all": "control/material/lights/texture/coal_block"
+		"particle": "control/material/lights/texture/light02",
+		"all": "control/material/lights/texture/light02"
 	},
 	"elements": [
 		{
