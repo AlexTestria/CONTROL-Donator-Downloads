@@ -1,0 +1,129 @@
+{
+	"credit": "AlexTestria | https://alex-bauerndistel.de",
+	"parent": "block/block",
+	"ambientocclusion": false,
+	"textures": {
+		"3": "control/objects/folder01",
+		"4": "control/material/metals/shader_support/metal02",
+		"6": "control/documents/doc01_departure_of_cargo",
+		"7": "control/material/objects/paper/shader_support/paper02",
+		"8": "control/material/objects/paper/shader_support/green_paper01",
+		"particle": "control/objects/folder01"
+	},
+	"elements": [
+		{
+			"from": [5.39, 0.755, 4.6975],
+			"to": [10.61, 0.805, 11.4315],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.975, 0.78, 8.0645]},
+			"faces": {
+				"north": {"uv": [0, 0.05, 5.17, 0], "rotation": 180, "texture": "#8"},
+				"east": {"uv": [0, 0, 0.05, 6.734], "rotation": 270, "texture": "#8"},
+				"south": {"uv": [0, 0.05, 5.17, 0], "rotation": 180, "texture": "#8"},
+				"west": {"uv": [0, 0.05, 6.734, 0], "rotation": 180, "texture": "#8"},
+				"up": {"uv": [0, 0, 5.17188, 6.73438], "rotation": 180, "texture": "#3"},
+				"down": {"uv": [0, 6.734, 5.17, 0], "rotation": 180, "texture": "#8"}
+			}
+		},
+		{
+			"from": [5.39, 0.005, 4.6975],
+			"to": [10.61, 0.055, 11.4315],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.75, 1.765, 6.5575]},
+			"faces": {
+				"north": {"uv": [0, 0.05, 5.17, 0], "rotation": 180, "texture": "#8"},
+				"east": {"uv": [0, 0, 0.05, 6.734], "rotation": 270, "texture": "#8"},
+				"south": {"uv": [0, 0.05, 5.17, 0], "rotation": 180, "texture": "#8"},
+				"west": {"uv": [0, 0.05, 6.734, 0], "rotation": 180, "texture": "#8"},
+				"up": {"uv": [0, 6.734, 5.17, 0], "rotation": 180, "texture": "#8"},
+				"down": {"uv": [0, 6.734, 5.17, 0], "rotation": 180, "texture": "#8"}
+			}
+		},
+		{
+			"from": [10.56, 0.055, 4.6975],
+			"to": [10.61, 0.755, 11.4315],
+			"rotation": {"angle": 0, "axis": "y", "origin": [10.585, 0.52, 8.0645]},
+			"faces": {
+				"north": {"uv": [0, 0, 0.05, 0.7], "texture": "#8"},
+				"east": {"uv": [0, 0, 6.734, 0.7], "texture": "#8"},
+				"south": {"uv": [0, 0, 0.05, 0.7], "texture": "#8"},
+				"west": {"uv": [0, 0, 6.734, 0.7], "texture": "#8"}
+			}
+		},
+		{
+			"from": [10.61, 0.18, 5.4475],
+			"to": [10.66, 0.63, 5.8815],
+			"rotation": {"angle": 0, "axis": "y", "origin": [10.585, 0.52, 8.0645]},
+			"faces": {
+				"north": {"uv": [0, 0, 0.05, 0.45], "texture": "#4"},
+				"east": {"uv": [0, 0, 0.434, 0.45], "texture": "#4"},
+				"south": {"uv": [0, 0, 0.05, 0.45], "texture": "#4"},
+				"up": {"uv": [0, 0, 0.05, 0.434], "texture": "#4"},
+				"down": {"uv": [0, 0, 0.05, 0.434], "texture": "#4"}
+			}
+		},
+		{
+			"from": [5.915, 0.13, 4.7475],
+			"to": [10.535, 0.63, 11.2815],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.775, 2.29, 6.5075]},
+			"faces": {
+				"north": {"uv": [0, 0, 4.62, 0.5], "texture": "#7"},
+				"east": {"uv": [0, 0, 6.534, 0.5], "texture": "#7"},
+				"south": {"uv": [0, 0, 4.62, 0.5], "texture": "#7"},
+				"west": {"uv": [0, 0, 6.534, 0.5], "texture": "#7"},
+				"up": {"uv": [0, 0, 11.28125, 15.95313], "rotation": 180, "texture": "#6"},
+				"down": {"uv": [11.28125, 15.95313, 0, 0], "rotation": 180, "texture": "#6"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 6.5],
+			"scale": [-1, 1, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 6.5],
+			"scale": [-1, 1, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [70, 180, -52],
+			"translation": [-7.25, 4, 5.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [70, 180, -52],
+			"translation": [-7.25, 4, 5.5]
+		},
+		"ground": {
+			"translation": [0, 7.5, 0]
+		},
+		"gui": {
+			"rotation": [105, -180, -25],
+			"translation": [-6.75, -3.5, 0],
+			"scale": [2, 2, 2]
+		},
+		"head": {
+			"translation": [0, -30.41, 0],
+			"scale": [1.6, 1.6, 1.6]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, -0.5, -14],
+			"scale": [1.73, 1.73, 1.73]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [10.335, 0.165, 8.007],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4,
+				{
+					"name": "octagon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"children": []
+				}
+			]
+		}
+	]
+}

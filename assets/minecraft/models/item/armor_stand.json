@@ -37,13 +37,31 @@
 		{ "predicate": { "custom_model_data": 30}, "model": "item/decoration/control/decorative/magazine_stand/magazine_stand01" },
 		{ "predicate": { "custom_model_data": 31}, "model": "item/decoration/control/decorative/trash_can/trash_can01" },
 		{ "predicate": { "custom_model_data": 32}, "model": "item/decoration/control/office_supplies/documents/folder/folder01" },
-		{ "predicate": { "custom_model_data": 33}, "model": "item/decoration/control/office_supplies/documents/folder/folder02" },
+		{ "predicate": { "custom_model_data": 33}, "model": "item/decoration/control/.new/title_screen" },
 		{ "predicate": { "custom_model_data": 34}, "model": "item/decoration/control/decorative/desks/wooden_desk/wooden_desk03" },
 		{ "predicate": { "custom_model_data": 35}, "model": "item/decoration/control/decorative/desks/wooden_desk/wooden_desk04" },
 		{ "predicate": { "custom_model_data": 36}, "model": "item/decoration/control/office_supplies/stamp_card_board/stamp_card_board01" },
 		{ "predicate": { "custom_model_data": 37}, "model": "item/decoration/control/janitor/janitor_cart/janitor_cart01" },
 		{ "predicate": { "custom_model_data": 38}, "model": "item/decoration/control/technology/radio/radio01" },
+		{ "predicate": { "custom_model_data": 39}, "model": "item/decoration/control/decorative/desks/metal_bars_desk/metal_bars_desk01" },
+		{ "predicate": { "custom_model_data": 40}, "model": "item/decoration/control/decorative/chairs/plastic_chair/red_plastic_chair01" },
+		{ "predicate": { "custom_model_data": 41}, "model": "item/decoration/control/decorative/chairs/plastic_chair/blue_plastic_chair01" },
+		{ "predicate": { "custom_model_data": 42}, "model": "item/decoration/control/janitor/wet_floor_sign/wet_floor_sign01" },
 
-		{ "predicate": { "custom_model_data": 1001}, "model": "item/room_assets/control/01_intro/01" }
+		{ "predicate": { "custom_model_data": 1004}, "model": "item/decoration/control/office_supplies/coffee_mug/coffee_mug02" },
+		{ "predicate": { "custom_model_data": 1010}, "model": "item/decoration/control/office_supplies/desk_lamp/desk_lamp02" },
+		{ "predicate": { "custom_model_data": 1019}, "model": "item/decoration/control/office_supplies/client_card_index/client_card_index02" },
+		{ "predicate": { "custom_model_data": 1025}, "model": "item/decoration/control/office_supplies/pneumatic_tubes/pneumatic_tubes02" },
+		{ "predicate": { "custom_model_data": 1026}, "model": "item/decoration/control/office_supplies/typewriter/typewriter02" },
+		{ "predicate": { "custom_model_data": 1029}, "model": "item/decoration/control/packaging/equipment_box/equipment_box02" },
+		{ "predicate": { "custom_model_data": 1030}, "model": "item/decoration/control/decorative/magazine_stand/magazine_stand02" },
+		{ "predicate": { "custom_model_data": 1031}, "model": "item/decoration/control/decorative/trash_can/trash_can02" },
+		{ "predicate": { "custom_model_data": 1032}, "model": "item/decoration/control/office_supplies/documents/folder/folder02" },
+		{ "predicate": { "custom_model_data": 1036}, "model": "item/decoration/control/office_supplies/stamp_card_board/stamp_card_board02" },
+		{ "predicate": { "custom_model_data": 1040}, "model": "item/decoration/control/decorative/chairs/plastic_chair/red_plastic_chair02" },
+		{ "predicate": { "custom_model_data": 1041}, "model": "item/decoration/control/decorative/chairs/plastic_chair/blue_plastic_chair02" },
+		{ "predicate": { "custom_model_data": 1042}, "model": "item/decoration/control/janitor/wet_floor_sign/wet_floor_sign02" },
+
+		{ "predicate": { "custom_model_data": 10001}, "model": "item/room_assets/control/01_intro/01" }
 	]
 }
